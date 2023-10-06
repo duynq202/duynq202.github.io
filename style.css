@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* tạo khoảng cách giữa 2 thẻ div */
+    position: relative;
+}
+
+.side {
+    min-width: 400px;
+    width: 35%;
+    height: 100%;
+    border: 1px solid #ccc;
+    margin: 20px 0 0 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+.name{
+    color: black;
+    text-align: center;
+    font-weight: 10px;
+    font-size: 24px;
+    margin: 12px;
+}
+
+
+.fa{
+    padding: 0 16px;
+    width: 100%;
+}
+
+.fa i{
+    font-style: normal;
+    color: #009688;
+}
+
+.icon-text{
+    margin: 8px;
+}
+
+.icon-text .fa-solid{
+    margin-right: 20px;
+}
+
+hr{
+    margin: 20px auto;
+    opacity: 0.6;
+    width: 80%;
+}
+
+h1{
+    text-align: center;
+    color: #757575;
+    font-weight: 300;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+h2{
+    text-align: center;
+    color: #757575;
+    font-weight: 300;
+}
+
+h3{
+    color: #757575;
+    font-weight: 300;
+}
+
+h4{
+    color: #009688;
+
+}
+
+.skill, .language {
+    margin: 15px 0;
+    padding: 0 16px;
+    color: #757575;
+}
+
+.skill p, .language p{
+    margin: 15px 0;
+}
+
+.percent{
+    background-color: #ccc;
+    color: white;
+    border-radius: 10px;
+}
+
+.archive1{
+    background-color: #009688;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px 0;
+}
+
+.archive2{
+    background-color: #009688;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px 0;
+}
+
+.archive3{
+    background-color: #009688;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px 0;
+}
+
+.vietnamese{
+    background-color: #009688;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 11px 0;
+}
+
+.english{
+    background-color: #009688;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 11px 0;
+}
+
+.content {
+    width: 64%;
+    border: 1px solid #ccc;
+    margin: 20px 20px 0 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    display: block;
+}
+
+.study{
+    height: 28%;
+    padding: 0 16px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.work{
+    margin-top: 20px;
+    height: 50%;
+    padding: 0 16px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.work p{
+    text-align: justify;
+}
+
+.social{
+    margin-top: 20px;
+    height: 21%;
+    padding: 0 16px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
